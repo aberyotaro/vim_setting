@@ -1,3 +1,6 @@
+"""""""""""""""
+" dein
+"""""""""""""""
 if &compatible
   set nocompatible
 endif
@@ -24,9 +27,23 @@ endif
 filetype plugin indent on
 syntax enable
 
+""""""""""""""""""""""""
+" setting
+""""""""""""""""""""""""
+set title
+set cursorline
+set showmatch
+highlight LineNr ctermfg=darkyellow
 set number
 set clipboard=unnamed
 set backspace=indent,eol,start
+set hlsearch
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set autoindent
+set smartindent
 
 " vim-closetag
 let g:closetag_filenames = '*.html,*.vue'
