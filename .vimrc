@@ -24,11 +24,8 @@ endif
 filetype plugin indent on
 syntax enable
 
-set nocompatible
 set number
 set clipboard=unnamed
-syntax enable
-filetype off
 set backspace=indent,eol,start
 
 " vim-closetag
